@@ -243,8 +243,8 @@
         <developerConnection>scm:git:ssh://github.com/Reading-eScience-Centre/edal-java</developerConnection>
         <url>https://github.com/Reading-eScience-Centre/edal-java</url>
     </scm>
-    <distributionManagement>
-        <!-- use the following if you're not using a snapshot version. -->
+<!--    <distributionManagement>
+        &lt;!&ndash; use the following if you're not using a snapshot version. &ndash;&gt;
         <repository>
             <id>edal-java-release</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
@@ -253,7 +253,7 @@
             <id>edal-snapshots</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
     <modules>
         <!-- Note that these are relative directory paths, not artifactIds! -->
         <module>common</module>
